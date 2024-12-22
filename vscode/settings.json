@@ -1,0 +1,65 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.cursorBlinking": "solid",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "GeistMono NF",
+  "editor.glyphMargin": false,
+  "editor.guides.indentation": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [ // 83A598 81A1C1 6A9955
+    {
+      "scope": ["entity.name.type","entity.name.tag.yaml"],
+      "settings": {
+        "foreground": "#83A598"
+      }
+    },
+    {
+      "scope": ["variable.other.enummember"],
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    }, 
+    {
+      "scope": ["variable", "string"],
+      "settings": {
+        "foreground": "#878c93"
+      }
+    }
+     
+    ]
+  },
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "window.density.editorTabHeight": "compact",
+  "window.title": " ",
+  "workbench.colorCustomizations": {
+    "editor.background": "#2c3132",
+    "editor.foreground": "#878c93",
+    "scrollbar.shadow": "#2c3132",
+    "statusBar.background": "#2c3132",
+    "tab.activeForeground": "#bec2c7",
+     "sideBar.background": "#2c3132",
+     "terminal.background": "#2c3132",
+     "panel.background": "#373b3b",
+  },
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "none",
+  "git.openRepositoryInParentFolders": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+  "explorer.confirmDelete": false,
+  "editor.bracketPairColorization.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+}
+
+
