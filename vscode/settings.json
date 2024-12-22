@@ -1,54 +1,63 @@
 {
-    "breadcrumbs.enabled": false,
-    "editor.autoClosingBrackets": "never",
-    "editor.cursorBlinking": "solid",
-    "editor.detectIndentation": false,
-    "editor.fontFamily": "GeistMono NF",
-    "editor.glyphMargin": false,
-    "editor.guides.indentation": false,
-    "editor.lightbulb.enabled": "off",
-    "editor.matchBrackets": "never",
-    "editor.minimap.enabled": false,
-    "editor.renderLineHighlight": "none",
-    "editor.renderWhitespace": "none",
-    "editor.scrollbar.verticalScrollbarSize": 10,
-    "editor.stickyScroll.enabled": false,
-    "editor.stickyScroll.scrollWithEditor": false,
-    "editor.tabSize": 2,
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "string",
-          "settings": {
-            "foreground": "#D4C29F"
-          }
-        },
-        {
-          "scope": ["entity.name.tag","comment"],
-          "settings": {
-            "foreground": "#689D6A"
-          }
-        },
-      ]
-    },
-    "extensions.ignoreRecommendations": true,
-    "files.autoSave": "onFocusChange",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "window.density.editorTabHeight": "compact",
-    "window.title": " ",
-    "workbench.colorCustomizations": {
-      "editor.foreground": "#D4C29F",
-      "tab.activeForeground": "#bec2c7",
-      "editor.background": "#282828",
-      "scrollbar.shadow": "#282828",
-      "statusBar.background": "#282828",
-    },
-    "workbench.startupEditor": "none",
-    "workbench.tree.renderIndentGuides": "none",
-    "git.openRepositoryInParentFolders": "never",
-    "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Visual Studio Dark",
-    "security.workspace.trust.untrustedFiles": "open",
-    "explorer.confirmDelete": false,
-    "workbench.activityBar.location": "hidden"
-  }
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.fontFamily": "GeistMono NF",
+  "files.autoSave": "onFocusChange",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.renderWhitespace": "none",
+  "editor.guides.indentation": false,
+  "editor.tabSize": 2,
+  "extensions.ignoreRecommendations": true,
+  "git.openRepositoryInParentFolders": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.sideBar.location": "right",
+  "editor.detectIndentation": false,
+  "editor.matchBrackets": "never",
+  "window.density.editorTabHeight": "compact",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.autoClosingBrackets": "never",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.lightbulb.enabled": "off",
+  "security.workspace.trust.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "workbench.startupEditor": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.glyphMargin": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "window.title": " ",
+  "explorer.confirmDelete": false,
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#D4C29F",
+    "tab.activeForeground": "#bec2c7",
+    "editor.background": "#282828",
+    "scrollbar.shadow": "#282828",
+    "statusBar.background": "#282828",
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#D4C29F"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#689D6A"
+        }
+      },
+      {
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "#81A296"
+        }
+      }
+    ]
+  },
+}
