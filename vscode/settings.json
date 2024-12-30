@@ -52,6 +52,7 @@
      "terminal.background": "#2c3132",
      "panel.background": "#373b3b",
   },
+  "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   "git.openRepositoryInParentFolders": "never",
@@ -60,6 +61,9 @@
   "explorer.confirmDelete": false,
   "editor.bracketPairColorization.enabled": false,
   "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "Default Dark+",
+  "vim.vimrc.enable": true,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "workbench.activityBar.location": "hidden"
 }
-
-

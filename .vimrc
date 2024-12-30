@@ -12,8 +12,3 @@ nnoremap dw diw
 nnoremap yw yiw
 nnoremap <backspace> :noh<cr>
 inoremap jj <Esc>
-hi Search ctermbg=black ctermfg=red
-hi DiffChange ctermbg=black ctermfg=red
-hi DiffText ctermbg=black ctermfg=red
-set t_vb= re=1 updatetime=300
-set t_vb= re=1 updatetime=300
